@@ -11,11 +11,14 @@
 
 ### 2. **IAM → Roles → Create role → EC2 and EB**
    - Attach policies: AmazonS3FullAccess, AWSElasticBeanstalkFullAccess
+
      <img src="images/6.png" alt="Step 6" width="500"/>
-3. **Security Group: Open**
+### 3. **Open Security Group:**
    - SSH (22) → your IP 
    - HTTP (80) → 0.0.0.0/0
-   - Custom TCP (8080) → 0.0.0.0/0 
+   - Custom TCP (8080) → 0.0.0.0/0
+     
+     <img src="images/3.png" alt="Step 3" width="500"/>
 4. **Connect to EC2 from laptop using GIT Bash:**
     -ssh -i mykey.pem ubuntu@<EC2_PUBLIC_IP> 
 5. **Install JAVA, Jenkins, Node.js, AWS CLI**
