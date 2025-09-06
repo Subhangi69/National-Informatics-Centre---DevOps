@@ -1,7 +1,6 @@
-# 📦 Continuous Integration for a Node.js Web Application using Git, Jenkins, and AWS Elastic Beanstalk
-   ## 💻 (NIC Internship)
+ # 💻 (NIC Internship)
 
-This project was done to demonstrates Continuous Integration (CI) pipeline using Jenkins and AWS Elastic Beanstalk for deployment of a Node.js based web application
+## This project was done to demonstrates Continuous Integration (CI) pipeline using Git, Jenkins and AWS Elastic Beanstalk for deployment of a Node.js based web application
 ---
 
 ## 🏢 Workflow
