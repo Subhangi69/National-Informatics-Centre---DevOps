@@ -77,13 +77,15 @@ sudo systemctl status jenkins --no-pager
 
  <img src="images/12.png" alt="Step 12" width="500"/>
 
-### 10. **Open the Elastic Beanstalk environment and openecopy the domain address → Paste in a new tab → opens the App**
+### 10. **Open the Elastic Beanstalk environment and copy the domain address → Paste in a new tab → opens the App**
 
-[![Watch the Demo](https://img.youtube.com/vi/_RTMut-4284/0.jpg)](https://youtu.be/_RTMut-4284)
+
 
 ---
 
 ## 💻 How to Run
+ ### Video
+ [![Watch the Demo](https://img.youtube.com/vi/_RTMut-4284/0.jpg)](https://youtu.be/_RTMut-4284)
 
 # 🙇‍♂️🙇‍♂️ I have closed the instances to avoid AWS cost  
 Therefore, the application is inaccessible right now. Although you can go through my git files suitable to be deployed via Jenkins
