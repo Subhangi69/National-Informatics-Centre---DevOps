@@ -8,8 +8,10 @@
 ### 1. **Open AWS Console → EC2 → Launch instance** 
 
 <img src="images/1.png" alt="Step 1" width="500"/>
+
 ### 2. **IAM → Roles → Create role → EC2 and EB**
-   - Attach policies: AmazonS3FullAccess, AWSElasticBeanstalkFullAccess  
+   - Attach policies: AmazonS3FullAccess, AWSElasticBeanstalkFullAccess
+     <img src="images/6.png" alt="Step 6" width="500"/>
 3. **Security Group: Open**
    - SSH (22) → your IP 
    - HTTP (80) → 0.0.0.0/0
