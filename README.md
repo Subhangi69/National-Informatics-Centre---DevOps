@@ -19,7 +19,7 @@
    - Custom TCP (8080) → 0.0.0.0/0
      
      <img src="images/3.png" alt="Step 3" width="500"/>
-     ### 4. **Connect to EC2 from laptop using GIT Bash:**
+### 4. **Connect to EC2 from laptop using GIT Bash:**
 ```bash
  ssh -i mykey.pem ubuntu@<EC2_PUBLIC_IP> 
  ```
@@ -55,9 +55,9 @@ sudo systemctl status jenkins --no-pager
     
 ### 6. **Access Jenkins.**
    - Get EC2 Public IP from console
-     <img src="images/8.png" alt="Step 8" width="500"/>
+<img src="images/8.png" alt="Step 8" width="500"/>
 
-     <img src="images/9.png" alt="Step 9" width="500"/>
+<img src="images/9.png" alt="Step 9" width="500"/>
       
 ### 7. **In AWS Console → Elastic Beanstalk → Create Application**  
 
