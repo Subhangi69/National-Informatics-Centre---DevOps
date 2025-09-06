@@ -68,8 +68,8 @@ sudo systemctl status jenkins --no-pager
    - Pipeline script from SCM → Git repo URL [https://github.com/Subhangi69/National Informatics-Centre---DevOps.git](https://github.com/Subhangi69/National-Informatics-Centre---DevOps.git ) → Branch */main → Script path Jenkinsfile. 
     - build trigger: GitHub hook trigger for GITScm polling.
 
-<img src="images/1.png" alt="Step 10" width="500"/>
-<img src="images/1.png" alt="Step 11" width="500"/>
+<img src="images/10.png" alt="Step 10" width="500"/>
+<img src="images/11.png" alt="Step 11" width="500"/>
 
 ### 9. **Run the pipeline**
    - Click on Build
@@ -83,7 +83,7 @@ sudo systemctl status jenkins --no-pager
 ---
 
 ## 💻 How to Run
- ## Video
+ ## Video ## →
  [![Watch the Demo](https://img.youtube.com/vi/_RTMut-4284/0.jpg)](https://youtu.be/_RTMut-4284)
 
 # 🙇‍♂️🙇‍♂️ I have closed the instances to avoid AWS cost  
