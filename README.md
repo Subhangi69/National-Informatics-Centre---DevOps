@@ -12,18 +12,18 @@
 ### 2. **IAM → Roles → Create role → EC2 and EB**
    - Attach policies: AmazonS3FullAccess, AWSElasticBeanstalkFullAccess
 
-     <img src="images/6.png" alt="Step 6" width="500"/>
+ <img src="images/6.png" alt="Step 6" width="500"/>
 ### 3. **Open Security Group:**
    - SSH (22) → your IP 
    - HTTP (80) → 0.0.0.0/0
    - Custom TCP (8080) → 0.0.0.0/0
      
-     <img src="images/3.png" alt="Step 3" width="500"/>
+<img src="images/3.png" alt="Step 3" width="500"/>
 ### 4. **Connect to EC2 from laptop using GIT Bash:**
 ```bash
  ssh -i mykey.pem ubuntu@<EC2_PUBLIC_IP> 
  ```
-   <img src="images/4.png" alt="Step 4" width="500"/>
+<img src="images/4.png" alt="Step 4" width="500"/>
     
 ### 5. **Install JAVA, Jenkins, Node.js, AWS CLI**
 
@@ -68,14 +68,14 @@ sudo systemctl status jenkins --no-pager
    - Pipeline script from SCM → Git repo URL [https://github.com/Subhangi69/National Informatics-Centre---DevOps.git](https://github.com/Subhangi69/National-Informatics-Centre---DevOps.git ) → Branch */main → Script path Jenkinsfile. 
     - build trigger: GitHub hook trigger for GITScm polling.
 
-     <img src="images/1.png" alt="Step 9" width="500"/>
-     <img src="images/1.png" alt="Step 10" width="500"/>
-     <img src="images/1.png" alt="Step 11" width="500"/>
+<img src="images/1.png" alt="Step 9" width="500"/>
+<img src="images/1.png" alt="Step 10" width="500"/>
+<img src="images/1.png" alt="Step 11" width="500"/>
 
 ### 9. **Run the pipeline**
    - Click on Build
 
- <img src="images/12.png" alt="Step 12" width="500"/>
+<img src="images/12.png" alt="Step 12" width="500"/>
 
 ### 10. **Open the Elastic Beanstalk environment and copy the domain address → Paste in a new tab → opens the App**
 
@@ -84,7 +84,7 @@ sudo systemctl status jenkins --no-pager
 ---
 
 ## 💻 How to Run
- ### Video
+ ## Video
  [![Watch the Demo](https://img.youtube.com/vi/_RTMut-4284/0.jpg)](https://youtu.be/_RTMut-4284)
 
 # 🙇‍♂️🙇‍♂️ I have closed the instances to avoid AWS cost  
