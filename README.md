@@ -19,9 +19,15 @@
    - Custom TCP (8080) → 0.0.0.0/0
      
      <img src="images/3.png" alt="Step 3" width="500"/>
-4. **Connect to EC2 from laptop using GIT Bash:**
-    -ssh -i mykey.pem ubuntu@<EC2_PUBLIC_IP> 
-5. **Install JAVA, Jenkins, Node.js, AWS CLI**
+     ### 4. **Connect to EC2 from laptop using GIT Bash:**
+```bash
+ ssh -i mykey.pem ubuntu@<EC2_PUBLIC_IP> 
+ ```
+   <img src="images/4.png" alt="Step 4" width="500"/>
+    
+### 5. **Install JAVA, Jenkins, Node.js, AWS CLI**
+
+<img src="images/5.png" alt="Step 5" width="500"/>
 
    
 ```bash
@@ -47,16 +53,31 @@ sudo systemctl status jenkins --no-pager
 ```
 
     
-6. **Access Jenkins.**
-    - Get EC2 Public IP from console
-7. **In AWS Console → Elastic Beanstalk → Create Application**  
-8. **Jenkins job configuration**  
-    -  New Item → Pipeline → name NIC-DevOps-Pipeline. 
-    - Pipeline script from SCM → Git repo URL [https://github.com/Subhangi69/National Informatics-Centre---DevOps.git](https://github.com/Subhangi69/National-Informatics-Centre---DevOps.git ) → Branch */main → Script path Jenkinsfile. 
-    - build trigger: GitHub hook trigger for GITScm polling. 
-9. **Run the pipeline**
-    - Click on Build  
-10. **Open the Elastic Beanstalk environment and openecopy the domain address → Paste in a new tab → opens the App**
+### 6. **Access Jenkins.**
+   - Get EC2 Public IP from console
+     <img src="images/8.png" alt="Step 8" width="500"/>
+
+     <img src="images/9.png" alt="Step 9" width="500"/>
+      
+### 7. **In AWS Console → Elastic Beanstalk → Create Application**  
+
+<img src="images/7.png" alt="Step 7" width="500"/>
+
+### 8. **Jenkins job configuration**  
+   -  New Item → Pipeline → name NIC-DevOps-Pipeline. 
+   - Pipeline script from SCM → Git repo URL [https://github.com/Subhangi69/National Informatics-Centre---DevOps.git](https://github.com/Subhangi69/National-Informatics-Centre---DevOps.git ) → Branch */main → Script path Jenkinsfile. 
+    - build trigger: GitHub hook trigger for GITScm polling.
+
+     <img src="images/1.png" alt="Step 9" width="500"/>
+     <img src="images/1.png" alt="Step 10" width="500"/>
+     <img src="images/1.png" alt="Step 11" width="500"/>
+
+### 9. **Run the pipeline**
+   - Click on Build
+
+ <img src="images/12.png" alt="Step 12" width="500"/>
+
+### 10. **Open the Elastic Beanstalk environment and openecopy the domain address → Paste in a new tab → opens the App**
 
 ---
 
