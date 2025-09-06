@@ -6,7 +6,7 @@
 ## 🏢 Workflow
 
 1. **Open AWS Console → EC2 → Launch instance**
-   <img src="images/1.png" alt="Step 1" width="400"/> 
+      <img src="images/1.png" alt="Step 1" width="250"/>
 3. **IAM → Roles → Create role → EC2 and EB**
    - Attach policies: AmazonS3FullAccess, AWSElasticBeanstalkFullAccess  
 4. **Security Group: Open**
