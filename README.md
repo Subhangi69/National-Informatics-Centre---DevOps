@@ -5,16 +5,17 @@
 
 ## 🏢 Workflow
 
-1. **Open AWS Console → EC2 → Launch instance**  
-2. **IAM → Roles → Create role → EC2 and EB**
+1. **Open AWS Console → EC2 → Launch instance**
+    ![Step 1](images/1.png)  
+3. **IAM → Roles → Create role → EC2 and EB**
    - Attach policies: AmazonS3FullAccess, AWSElasticBeanstalkFullAccess  
-3. **Security Group: Open**
+4. **Security Group: Open**
    - SSH (22) → your IP 
    - HTTP (80) → 0.0.0.0/0
    - Custom TCP (8080) → 0.0.0.0/0 
-4. **Connect to EC2 from laptop using GIT Bash:**
+5. **Connect to EC2 from laptop using GIT Bash:**
     -ssh -i mykey.pem ubuntu@<EC2_PUBLIC_IP> 
-5. **Install JAVA, Jenkins, Node.js, AWS CLI**
+6. **Install JAVA, Jenkins, Node.js, AWS CLI**
 
    
 ```bash
