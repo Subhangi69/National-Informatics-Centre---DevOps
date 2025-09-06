@@ -79,6 +79,8 @@ sudo systemctl status jenkins --no-pager
 
 ### 10. **Open the Elastic Beanstalk environment and openecopy the domain address → Paste in a new tab → opens the App**
 
+[![Watch the Demo](https://img.youtube.com/vi/_RTMut-4284/0.jpg)](https://youtu.be/_RTMut-4284)
+
 ---
 
 ## 💻 How to Run
