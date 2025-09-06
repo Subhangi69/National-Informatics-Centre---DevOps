@@ -80,6 +80,8 @@ sudo systemctl status jenkins --no-pager
 
 ### 10. **Open the Elastic Beanstalk environment and copy the domain address → Paste in a new tab → opens the App**
 
+<img src="images/14.png" alt="Step 14" width="500"/>
+
 
 
 ---
