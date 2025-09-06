@@ -45,7 +45,7 @@ sudo systemctl status jenkins --no-pager
 12. **In AWS Console → Elastic Beanstalk → Create Application**  
 11. **Jenkins job configuration**  
     -  New Item → Pipeline → name NIC-DevOps-Pipeline. 
-    - Pipeline script from SCM → Git repo URL https://github.com/Subhangi69/National Informatics-Centre---DevOps.git → Branch */main → Script path Jenkinsfile. 
+    - Pipeline script from SCM → Git repo URL [https://github.com/Subhangi69/National Informatics-Centre---DevOps.git](https://github.com/Subhangi69/National-Informatics-Centre---DevOps.git ) → Branch */main → Script path Jenkinsfile. 
     - build trigger: GitHub hook trigger for GITScm polling. 
 13. **Run the pipeline**
     - Click on Build  
