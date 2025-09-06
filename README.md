@@ -68,7 +68,6 @@ sudo systemctl status jenkins --no-pager
    - Pipeline script from SCM → Git repo URL [https://github.com/Subhangi69/National Informatics-Centre---DevOps.git](https://github.com/Subhangi69/National-Informatics-Centre---DevOps.git ) → Branch */main → Script path Jenkinsfile. 
     - build trigger: GitHub hook trigger for GITScm polling.
 
-<img src="images/1.png" alt="Step 9" width="500"/>
 <img src="images/1.png" alt="Step 10" width="500"/>
 <img src="images/1.png" alt="Step 11" width="500"/>
 
