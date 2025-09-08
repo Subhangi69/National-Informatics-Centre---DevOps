@@ -85,8 +85,6 @@ sudo systemctl status jenkins --no-pager
 
 
 ---
-
-## 💻 How to Run
  ## 📺 Video →
  [![Watch the Demo](https://img.youtube.com/vi/_RTMut-4284/0.jpg)](https://youtu.be/_RTMut-4284)
 
