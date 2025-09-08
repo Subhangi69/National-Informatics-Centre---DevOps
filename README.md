@@ -66,7 +66,7 @@ sudo systemctl status jenkins --no-pager
 <img src="images/7.png" alt="Step 7" width="500"/>
 
 ### 8. **Jenkins job configuration**  
-   -  New Item → Pipeline → name NIC-DevOps-Pipeline. 
+   -  New Item → Pipeline → name. 
    - Pipeline script from SCM → Git repo URL [https://github.com/Subhangi69/National Informatics-Centre---DevOps.git](https://github.com/Subhangi69/National-Informatics-Centre---DevOps.git ) → Branch */main → Script path Jenkinsfile. 
     - build trigger: GitHub hook trigger for GITScm polling.
 
