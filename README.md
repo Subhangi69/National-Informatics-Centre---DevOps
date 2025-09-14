@@ -15,6 +15,7 @@
  <img src="images/6.png" alt="Step 6" width="500"/>
 
 ### 3. **Open Security Group:**
+   Edit Inbound rules
    - SSH (22) → your IP 
    - HTTP (80) → 0.0.0.0/0
    - Custom TCP (8080) → 0.0.0.0/0
